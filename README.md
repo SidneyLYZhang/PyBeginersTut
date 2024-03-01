@@ -49,12 +49,16 @@
 - [ ] 第六章 面向对象和函数式
 - [ ] 第七章 一个小项目
 
+### 问题与沟通
+
+如果遇到什么问题，欢迎大家在 [Discussions](https://github.com/SidneyLYZhang/PyBeginersTut/discussions) 中向我提出来。当然也可以直接发邮件（zly@lyzhang.me）给我。
+
 ### LICENSE
 
 1. For Tutorial's part：
 
-[Python Beginner's Tutorial]() © 2024 by [Sidney Zhang](https://lyzhang.me) is licensed under [Attribution-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1) .
+[Python Beginner's Tutorial](https://github.com/SidneyLYZhang/PyBeginersTut) © 2024 by [Sidney Zhang](https://lyzhang.me) is licensed under [Attribution-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1) .
 
 2. For Codes part:
 
-[Code from Python Beginner's Tutorial]() © 2024 [Sidney Zhang](https://lyzhang.me) is licensed under [MIT License](https://mit-license.org/) .
+[Code from Python Beginner's Tutorial](https://github.com/SidneyLYZhang/PyBeginersTut) © 2024 [Sidney Zhang](https://lyzhang.me) is licensed under [MIT License](https://mit-license.org/) .
