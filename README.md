@@ -21,7 +21,7 @@
 ### 目录
 
 - [第一章：介绍](./Tutorials/0.introduce.ipynb)
-- [第二章：安装与环境配置](#python-beginners-tutorial)
+- [第二章：安装与环境配置](./Tutorials/1.install.ipynb)
 - [第三章：基础语法和数据类型](#python-beginners-tutorial)
 - [第四章：使用模块](#python-beginners-tutorial)
 - [第五章：输入输出和异常处理](#python-beginners-tutorial)
@@ -42,8 +42,8 @@
 目前的**项目进展**：
 
 - [x] 第一章 介绍篇
-- [ ] :pencil: 第二章 安装与环境配置
-- [ ] 第三章 基础语法和数据类型
+- [x] 第二章 安装与环境配置
+- [ ] :pencil: 第三章 基础语法和数据类型
 - [ ] 第四章 使用模块
 - [ ] 第五章 输入输出和异常处理
 - [ ] 第六章 面向对象和函数式
