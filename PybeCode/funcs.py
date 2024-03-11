@@ -2,6 +2,7 @@ import re
 import math
 import json
 import string
+import pendulum as pum
 from typing import List
 from numbers import Number
 from itertools import chain
@@ -81,6 +82,33 @@ def randoms(need_word:bool = True, need_number:bool = True,
     res = reduce(lambda x,y: x+y , res)
     shuffle(res)
     return res[0] if n == 1 else res[:n]
+
+def birthday_random(n = 1, age = 38.8, sformat = None):
+    '''
+    - n : 需要随机生日的数量
+    - age : 设定的平均年龄,
+            默认值 38.8
+            (来源第七次全国人口普查 http://finance.people.com.cn/n1/2021/0511/c1004-32100001.html )
+    - sformat : 输入的日期格式化, 格式参考 https://pendulum.eustace.io/docs/#formatter
+    
+    - n (default: 1): The number of random birthdays to generate. 
+        It must be an integer greater than or equal to 1.
+    - age (default: 38.8): The average age to use for calculating the range of possible birthdates. 
+        The default value is based on the average age of the 
+        population from the seventh national population census in China.
+    - sformat (optional): A string format to customize the output of 
+        the generated dates. The formatting options can be found in the Pendulum documentation.
+    '''
+    if n < 1 :
+        raise ValueError("The variable `n` must be an integer greater than or equal to 1.")
+    today = pum.now()
+    MAXAGE = 150 # 参考 https://www.nature.com/articles/s41467-021-23014-1
+    resList = [uniform(0, MAXAGE/age) * age for i in range(0,n)]
+    resList = [today.subtract(years=int(math.modf(i)[1]),
+                              seconds=math.modf(i)[0]*31536000) for i in resList]
+    if sformat:
+        resList = [i.format(sformat) for i in resList]
+    return resList[0] if n == 1 else resList
 
 if __name__ == "__main__" :
     print(randoms(n = 10))
