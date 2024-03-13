@@ -32,8 +32,14 @@
 
 静态文件都保存在 `assets` 文件夹内。
 
-1. [数据文件](/assets/data/) ：所使用到的各类数据文件。
-2. [图片文件](/assets/pics/) : 所用到的图片。
+1. [数据文件](./assets/data/) ：所使用到的各类数据文件。
+2. [图片文件](./assets/pics/) : 所用到的图片。
+3. [习题](./Exercises/) ：习题及答案。
+4. [讲义](./Materials/) ：讲义PPT。
+
+另外，教程中会用到一些用于简化的函数或者方法，都保存在 [`PybeCode`](./PybeCode/) 文件内。
+
+对于所需要的添加包/Package，都保存在 [requirements文件](./requirements.txt) 里。这些需要的Package会在教程进行过程中逐步介绍，所以你也无须提前安装。
 
 *****
 
