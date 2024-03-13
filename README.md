@@ -18,6 +18,8 @@
 
 *****
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SidneyLYZhang/PyBeginersTut/main)
+
 ### 目录
 
 - [第一章：介绍](./Tutorials/0.introduce.ipynb)
@@ -29,6 +31,8 @@
 - [第七章：一个小项目](#python-beginners-tutorial)
 
 ### 附录信息
+
+现已可以通过 [NBViewer](https://nbviewer.org/github/SidneyLYZhang/PyBeginersTut/tree/main/Tutorials/) 在线浏览教程。目录索引可以在 [Tutorials文件夹](./Tutorials/) 下的 [README](./Tutorials/README.md) 中查询。
 
 静态文件都保存在 `assets` 文件夹内。
 
